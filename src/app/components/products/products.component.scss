@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-body {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+  margin: 10px;
+  max-width: 1240px;
+}
+
+.example-card {
+  color: black;
+  background: #fff;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.img {
+  max-width: 300px;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  &.button {
+    color: rgb(255, 255, 255);
+    border: rgb(0, 0, 0) solid 0.1px;
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "MacBook Air",
+      "price": "900",
+      "img": "assets/images/HA244.jpg",
+      "configuration": {
+        "chip": "M1",
+        "SSD": "256GB",
+        "memory": "16GB",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": 2,
+      "title": "MacBook Air",
+      "price": "900",
+      "img": "assets/images/HA244.jpg",
+      "configuration": {
+        "chip": "M1",
+        "SSD": "256GB",
+        "memory": "16GB",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": 3,
+      "title": "MacBook Air",
+      "price": "900",
+      "img": "assets/images/HA244.jpg",
+      "configuration": {
+        "chip": "M1",
+        "SSD": "256GB",
+        "memory": "16GB",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": 4,
+      "title": "MacBook Air",
+      "price": "900",
+      "img": "assets/images/HA244.jpg",
+      "configuration": {
+        "chip": "M1",
+        "SSD": "256GB",
+        "memory": "16GB",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": 5,
+      "title": "MacBook Air",
+      "price": "1900",
+      "img": "assets/images/HA244.jpg",
+      "configuration": {
+        "chip": "M1",
+        "SSD": "256GB",
+        "memory": "16GB",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": 6,
+      "title": "MacBook Air2",
+      "price": "1300",
+      "img": "assets/images/HA244.jpg",
+      "configuration": {
+        "chip": "M1",
+        "SSD": "512GB",
+        "memory": "32GB",
+        "display": "Retina"
+      }
+    }
+  ]
+}
