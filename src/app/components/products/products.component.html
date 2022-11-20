@@ -27,7 +27,7 @@
         </p>
       </mat-card-content>
       <mat-card-actions class="card-buttons">
-        <button class="button" mat-flat-button color="primary">Delete</button>
+        <button class="button" mat-flat-button color="primary">Basket</button>
         <button
           class="button"
           mat-flat-button
@@ -36,6 +36,23 @@
         >
           Details
         </button>
+        <button
+          mat-icon-button
+          [matMenuTriggerFor]="menu"
+          aria-label="Example icon-button with a menu"
+        >
+          <mat-icon>more_vert</mat-icon>
+        </button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item>
+            <mat-icon>edit</mat-icon>
+            <span>Edit</span>
+          </button>
+          <button mat-menu-item (click)="deleteProduct(product.id)">
+            <mat-icon>delete</mat-icon>
+            <span>Delete</span>
+          </button>
+        </mat-menu>
       </mat-card-actions>
     </mat-card>
   </div>
