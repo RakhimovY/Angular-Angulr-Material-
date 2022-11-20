@@ -4,11 +4,16 @@ import { ProductsComponent } from './components/products/products.component';
 import { BaseComponent } from './components/base/base.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ProductResolver } from './services/product.resolver';
 
 const routes: Routes = [
   { path: '', component: BaseComponent },
   { path: 'products', component: ProductsComponent },
-  { path: 'product/:id', component: ProductDetailsComponent },
+  {
+    path: 'product/:id',
+    component: ProductDetailsComponent,
+    resolve: { data: ProductResolver },
+  },
   { path: 'basket', component: BasketComponent },
   { path: '**', redirectTo: '', component: BaseComponent },
 ];

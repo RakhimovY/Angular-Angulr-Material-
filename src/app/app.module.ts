@@ -1,3 +1,6 @@
+import { BaseComponent } from './components/base/base.component';
+import { BasketComponent } from './components/basket/basket.component';
+import { DialogBoxComponent } from './components/dialog-box/dialog-box.component';
 import { ProductDetailsComponent } from './components/product-details/product-details.component';
 import { ProductsComponent } from './components/products/products.component';
 import { FooterComponent } from './components/UI/footer/footer.component';
@@ -14,6 +17,9 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatInputModule } from '@angular/material/input';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,6 +28,9 @@ import { MatCardModule } from '@angular/material/card';
     FooterComponent,
     ProductsComponent,
     ProductDetailsComponent,
+    DialogBoxComponent,
+    BasketComponent,
+    BaseComponent,
   ],
   imports: [
     BrowserModule,
@@ -32,6 +41,10 @@ import { MatCardModule } from '@angular/material/card';
     MatButtonModule,
     MatCardModule,
     HttpClientModule,
+    MatDialogModule,
+    MatInputModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

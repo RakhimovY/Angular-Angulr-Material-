@@ -71,6 +71,30 @@
         "memory": "32GB",
         "display": "Retina"
       }
+    },
+    {
+      "title": "sdasd",
+      "price": "aasdas",
+      "img": "assets/images/HA244.jpg",
+      "configuration": {
+        "chip": "adas",
+        "SSD": "ada",
+        "memory": "adada",
+        "display": "dsadsad"
+      },
+      "id": 7
+    },
+    {
+      "title": "asda",
+      "price": "1414",
+      "img": "assets/images/HA244.jpg",
+      "configuration": {
+        "chip": "aasdas",
+        "SSD": "dad",
+        "memory": "ada",
+        "display": "adsad"
+      },
+      "id": 8
     }
   ]
 }

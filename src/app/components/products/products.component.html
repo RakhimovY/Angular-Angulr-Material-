@@ -12,21 +12,24 @@
       </mat-card-header>
       <mat-card-content class="card-header">
         <p>
-          Price: <span>{{ product.price | currency }}</span>
+          Price:
+          <span style="font-weight: bold">{{ product.price | currency }}</span>
         </p>
         <p>
-          Memory: <span>{{ product.configuration.memory }}</span>
+          Memory:
+          <span style="font-weight: bold">{{
+            product.configuration.memory
+          }}</span>
         </p>
         <p>
-          SSD: <span>{{ product.configuration.SSD }}</span>
+          SSD:
+          <span style="font-weight: bold">{{ product.configuration.SSD }}</span>
         </p>
       </mat-card-content>
       <mat-card-actions class="card-buttons">
-        <button class="card-buttons button" mat-flat-button color="primary">
-          Delete
-        </button>
+        <button class="button" mat-flat-button color="primary">Delete</button>
         <button
-          class="card-buttons button"
+          class="button"
           mat-flat-button
           color="primary"
           [routerLink]="['/product', product.id]"
@@ -36,4 +39,5 @@
       </mat-card-actions>
     </mat-card>
   </div>
+  <button (click)="openDialog()" class="openModal">+</button>
 </div>
