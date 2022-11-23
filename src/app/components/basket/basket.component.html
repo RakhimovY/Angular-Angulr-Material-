@@ -1,3 +1,45 @@
-<p>
-  basket works!
-</p>
+<div class="container">
+  <div class="card-body">
+    <mat-card *ngFor="let item of basket" class="example-card">
+      <mat-card-header class="card-header">
+        <mat-card-title>{{ item.title }}</mat-card-title>
+        <img mat-card-image [src]="item.img" [alt]="item.title" class="img" />
+      </mat-card-header>
+      <mat-card-content class="card-header">
+        <p>
+          Price:
+          <span style="font-weight: bold">{{ item.price | currency }}</span>
+        </p>
+        <p>
+          Memory:
+          <span style="font-weight: bold">{{ item.configuration.memory }}</span>
+        </p>
+        <p>
+          SSD:
+          <span style="font-weight: bold">{{ item.configuration.SSD }}</span>
+        </p>
+      </mat-card-content>
+      <mat-card-actions class="card-buttons">
+        <button
+          class="button"
+          mat-flat-button
+          color="primary"
+          (click)="plusOneProduct(item)"
+        >
+          One more
+        </button>
+        <p>
+          Quantity:<span style="font-weight: bold">{{ item.quantity }}</span>
+        </p>
+        <button
+          class="button"
+          mat-flat-button
+          color="primary"
+          (click)="minusOneProduct(item)"
+        >
+          Minus one
+        </button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

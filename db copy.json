@@ -5,6 +5,7 @@
       "title": "MacBook Air 1",
       "price": "900",
       "img": "assets/images/HA244.jpg",
+   
       "configuration": {
         "chip": "M1",
         "SSD": "256GB",

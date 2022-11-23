@@ -30,12 +30,13 @@
       color="primary"
       type="submit"
     >
-      Add new product
+      {{ isNew ? "Edit" : "Add new product" }}
     </button>
     <button
       class="card-buttons button"
       mat-flat-button
       color="primary"
+      type="button"
       (click)="onNoClick()"
     >
       Cancel

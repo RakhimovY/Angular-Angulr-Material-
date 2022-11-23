@@ -3,6 +3,7 @@ export interface IProduct {
   title: string;
   price: string;
   img?: string;
+  quantity: number;
   configuration: {
     chip: string;
     SSD: string;

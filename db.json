@@ -1,6 +1,42 @@
 {
   "products": [
     {
+      "id": 1,
+      "title": "MacBook Air 1",
+      "price": "900",
+      "img": "assets/images/HA244.jpg",
+      "configuration": {
+        "chip": "M1",
+        "SSD": "256GB",
+        "memory": "16GB",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": 2,
+      "title": "MacBook Air 2",
+      "price": "900",
+      "img": "assets/images/HA244.jpg",
+      "configuration": {
+        "chip": "M1",
+        "SSD": "256GB",
+        "memory": "16GB",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": 3,
+      "title": "MacBook Air 3",
+      "price": "900",
+      "img": "assets/images/HA244.jpg",
+      "configuration": {
+        "chip": "M1",
+        "SSD": "256GB",
+        "memory": "16GB",
+        "display": "Retina"
+      }
+    },
+    {
       "id": 4,
       "title": "MacBook Air 4",
       "price": "900",
@@ -23,6 +59,31 @@
         "memory": "16GB",
         "display": "Retina"
       }
+    },
+    {
+      "id": 6,
+      "title": "MacBook Air2 6",
+      "price": "1300",
+      "img": "assets/images/HA244.jpg",
+      "configuration": {
+        "chip": "M1",
+        "SSD": "512GB",
+        "memory": "32GB",
+        "display": "Retina"
+      }
+    },
+    {
+      "id": 7,
+      "title": "asd",
+      "price": "147",
+      "img": "assets/images/HA244.jpg",
+      "configuration": {
+        "chip": "asd",
+        "SSD": "asda",
+        "memory": "dsa",
+        "display": "sd"
+      }
     }
-  ]
+  ],
+  "basket": []
 }
